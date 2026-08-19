@@ -2,6 +2,8 @@
 
 Welcome to Hype Haven, a character-driven collecting adventure about the rush, rivalry, and community surrounding trading-card culture. Explore town, meet collectors and scalpers, build your collection, manage purchases and grading through HypePhone, and settle confrontations in animated timing-based battles.
 
+![Hype Haven: Rip & Flip preview](hype-haven-github-preview-1280x640.png)
+
 This public repository contains no game source code, walkthroughs, hidden-item locations, story solutions, or other in-game secrets. The playable APK is available on the [latest release](https://github.com/solsatisfaction99-sys/hype-haven-rip-and-flip/releases/latest).
 
 ## Install on Android
@@ -17,18 +19,20 @@ The playtest supports Android 7.0 or newer on 32-bit and 64-bit ARM phones. It i
 Current APK SHA-256:
 
 ```text
-e1211bb596478f377a91e2cb02cca3825f1b990578c1d52b2bd70c51f6d936ce
+a76708856318f11086b4cf740e03033f0d555e1b4d3d8b1792478bdbbd6c5503
 ```
 
 ## Touch controls
 
-- **Start:** Tap **PLAY** to use the displayed character, or **CHOOSE CHARACTER** to select another.
+- **Start:** Tap **START NEW GAME**, **CONTINUE SAVED GAME**, or **CHOOSE CHARACTER**. Continue restores the saved street or building and walking position.
 - **Move:** Hold the on-screen directional pad. Multiple directions can be held for diagonal movement.
 - **ACTION:** Enter locations, inspect nearby objects, talk, choose a route, and advance conversations.
-- **HYPEPHONE:** Open the phone apps. Use each screen's rounded buttons and **CLOSE** control to navigate.
-- **CAST:** Open the playable-character roster and choose a character.
+- **HYPEPHONE:** Use the single button at the top of the game screen. Each app has its own rounded controls and **CLOSE** action.
+- **Character selection:** Available from the startup menu; each page shows six complete character cards with visible selection buttons.
 - **Battles:** Tap one of the four move buttons, then tap **TAP TO LOCK** when the moving meter reaches the gold zone.
 - **Menus:** Tap the visible **BACK**, **CLOSE**, **CONTINUE**, or confirmation button shown on the current screen.
+
+Progress autosaves after important changes, every ten seconds during exploration, when Android backgrounds the game, and when Back returns to the startup menu.
 
 ## Send playtest feedback
 
