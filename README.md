@@ -17,7 +17,7 @@ The playtest supports Android 7.0 or newer on 32-bit and 64-bit ARM phones. It i
 Current APK SHA-256:
 
 ```text
-442661f3fa8e6b7fd8c26ea3dad964e881c0a979a54bf5518389e99c7ce550b1
+61b78eedbfe0f0554a88ffc035a1bd9b34781b480f2cf231f8350f74cac64ae0
 ```
 
 ## Touch controls
