@@ -1,10 +1,16 @@
-# Hype Haven: Rip & Flip — Android Playtest
+# Hype Haven: Rip & Flip — Mobile Playtest
 
 Welcome to Hype Haven, a character-driven collecting adventure about the rush, rivalry, and community surrounding trading-card culture. Explore town, meet collectors and scalpers, build your collection, manage purchases and grading through HypePhone, and settle confrontations in animated timing-based battles.
 
 ![Hype Haven: Rip & Flip preview](hype-haven-github-preview-1280x640.png)
 
-This public repository contains no game source code, walkthroughs, hidden-item locations, story solutions, or other in-game secrets. The playable APK is available on the [latest release](https://github.com/solsatisfaction99-sys/hype-haven-rip-and-flip/releases/latest).
+This public repository contains no game source code, walkthroughs, hidden-item locations, story solutions, or other in-game secrets. Android players can install the APK from the [latest release](https://github.com/solsatisfaction99-sys/hype-haven-rip-and-flip/releases/latest), and iPhone or iPad players can use the browser edition.
+
+## Play on iPhone or iPad
+
+[**Play Hype Haven in Safari**](https://solsatisfaction99-sys.github.io/hype-haven-rip-and-flip/)
+
+Open the link in Safari, rotate the device to landscape, and tap **START NEW GAME**. The first launch downloads the full playtest (about 300 MB), so Wi-Fi is recommended. Browser saves remain on that device and can be cleared if Safari website data is removed.
 
 ## Install on Android
 
@@ -19,16 +25,16 @@ The playtest supports Android 7.0 or newer on 32-bit and 64-bit ARM phones. It i
 Current APK SHA-256:
 
 ```text
-8f793dbf679285cd20310eb10fd00018d422135ee42462097cfc824dae4d4634
+b814d23c1d81b8ffae297970a55c04fcc01d2abcf6765ae802bfa781de11b9d4
 ```
 
-## What's new in 0.6.4
+## What's new in 0.6.5
 
-- Rebuilt all 26 business NPCs as clean, transparent, full-body directional animation sets.
-- Removed exposed backgrounds, edge halos, and cropped feet or props from NPC movement frames.
-- Kept NPC movement proportions matched to the playable-character scale.
-- Replaced the movement control with a traditional controller-style cross D-pad, including held diagonal input.
-- Raised the baseline volume for music, voices, and sound effects.
+- Rebuilt every pose for all 26 business NPCs with true transparent edges and no white matte outlines.
+- Preserved complete feet, props, directional movement, and the existing playable-character-relative scale.
+- Re-centered and sharpened exterior building logos and signage so names remain legible without stretching.
+- Prevented released D-pad directions from staying highlighted or accumulating multiple active highlights.
+- Added the iPhone/iPad browser playtest while retaining the Android APK.
 
 ## Touch controls
 
