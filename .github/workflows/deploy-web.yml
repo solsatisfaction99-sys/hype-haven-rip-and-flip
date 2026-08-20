@@ -1,0 +1,44 @@
+name: Deploy iPhone web playtest
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Assemble source-free web release
+        env:
+          RELEASE_BASE: https://github.com/solsatisfaction99-sys/hype-haven-rip-and-flip/releases/download/v0.6.5-playtest
+        run: |
+          mkdir _site
+          curl --fail --location --retry 3 "$RELEASE_BASE/Hype-Haven-Rip-and-Flip-Web-Shell.zip" --output shell.zip
+          unzip -q shell.zip -d _site
+          curl --fail --location --retry 3 "$RELEASE_BASE/index.pck" --output _site/index.pck
+          echo "8edbc2cac696c8c8ddc4421396814b6d89fb5e2b56f2ffa75db2b68de369cee7  _site/index.pck" | sha256sum --check
+          test -f _site/index.html
+          test -f _site/index.wasm
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      - name: Deploy Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
