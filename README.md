@@ -19,13 +19,21 @@ The playtest supports Android 7.0 or newer on 32-bit and 64-bit ARM phones. It i
 Current APK SHA-256:
 
 ```text
-a76708856318f11086b4cf740e03033f0d555e1b4d3d8b1792478bdbbd6c5503
+8f793dbf679285cd20310eb10fd00018d422135ee42462097cfc824dae4d4634
 ```
+
+## What's new in 0.6.4
+
+- Rebuilt all 26 business NPCs as clean, transparent, full-body directional animation sets.
+- Removed exposed backgrounds, edge halos, and cropped feet or props from NPC movement frames.
+- Kept NPC movement proportions matched to the playable-character scale.
+- Replaced the movement control with a traditional controller-style cross D-pad, including held diagonal input.
+- Raised the baseline volume for music, voices, and sound effects.
 
 ## Touch controls
 
 - **Start:** Tap **START NEW GAME**, **CONTINUE SAVED GAME**, or **CHOOSE CHARACTER**. Continue restores the saved street or building and walking position.
-- **Move:** Hold the on-screen directional pad. Multiple directions can be held for diagonal movement.
+- **Move:** Hold the traditional cross-shaped on-screen D-pad. Adjacent directions can be held together for diagonal movement.
 - **ACTION:** Enter locations, inspect nearby objects, talk, choose a route, and advance conversations.
 - **HYPEPHONE:** Use the single button at the top of the game screen. Each app has its own rounded controls and **CLOSE** action.
 - **Character selection:** Available from the startup menu; each page shows six complete character cards with visible selection buttons.
